@@ -7,7 +7,7 @@
     --fonte-texto: "Afacad Flux", sans-serif;
     --salmao: rgb(216, 180, 182);
     --branco: rgb(248, 241, 241);
-    --vermelho: rgb(203, 14, 84);
+    --vermelho: rgb(205, 32, 96);
     --preto: rgb(5, 8, 10);
 }
 
@@ -20,4 +20,13 @@ body {
 
 h1,h3{
     font-family: var(--fonte-titulo);
+}
+
+.card{
+    background-color: var(--vermelho);
+}
+.link {
+    text-decoration: none;
+    font-size:  1.3em;
+    color: var(--preto);
 }

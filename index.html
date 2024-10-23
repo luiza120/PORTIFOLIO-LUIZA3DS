@@ -14,11 +14,11 @@
     <p>Sou uma jovem, interessado em areas da tecnologia como programação e computação.</p>
     <h3>Linguagens que tive contato:</h3>
     <div>
-        <p class="badge text-bg-primary">HTML</p>
-        <p class="badge text-bg-primary">CSS</p>
-        <p class="badge text-bg-primary">Javascript</p>
-        <p class="badge text-bg-primary">Python</p>
-        <p class="badge text-bg-primary">C</p>
+      <p class="badge text-bg-danger">HTML</p>
+      <p class="badge text-bg-info">CSS</p>
+      <p class="badge text-bg-warning">JavaScript</p>
+      <p class="badge text-bg-primary">Python</p>
+      <p class="badge text-bg-secondary">C</p>
     </div>
     <main class="container">
         <div class="container row justify-content-around">
@@ -26,54 +26,186 @@
                 <img src="img/m.c.png" class="card-img-top" alt="Tratamento">
                 <div class="card-body">
                   <h5 class="card-title">Tratamento de Dados</h5>
-                  <p class="card-text">Projeto desenvolvido para manipular dados e criar graficos.</p>
-                  <a href="#" class="btn btn-primary">Saiba mais</a>
+                  <p class="card-text">Projeto para manipulação de dados e criação de graficos.</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal1">Saiba Mais</button>
                 </div>
               </div>
+
               <div class="card col-md-4 m-3" style="width: 18rem;">
                 <img src="img/n.s.png" class="card-img-top" alt="Acerte o numero">
                 <div class="card-body">
-                  <h5 class="card-title">Acerte o número</h5>
-                  <p class="card-text">Projeto desenvolvido utilizando uma API de reconhecimento de voz.</p>
-                  <a href="#" class="btn btn-primary">Saiba mais</a>
+                  <h5 class="card-title">Acerte o número secreto</h5>
+                  <p class="card-text">Projeto desenvolvido utilizando uma API para reconhecimento de voz.</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal2">Saiba Mais</button>
                 </div>
               </div>
+
               <div class="card col-md-4 m-3" style="width: 18rem;">
                 <img src="img/v.d.png" class="card-img-top" alt="Você decide">
                 <div class="card-body">
                   <h5 class="card-title">Você decide</h5>
-                  <p class="card-text">Jogo de marcar opções para um texto final.</p>
-                  <a href="#" class="btn btn-primary">Saiba mais</a>
+                  <p class="card-text">Quizz de escolhas para um texto resumo no final.</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal3">Saiba Mais</button>
                 </div>
               </div>
         </div>
+
         <div class="container row justify-content-around">
           <div class="card col-md-4 m-3" style="width: 18rem;">
             <img src="img/l.c.png" class="card-img-top" alt="Lu Câmeras">
             <div class="card-body">
               <h5 class="card-title">Lu Câmeras</h5>
-              <p class="card-text">Primeira pagina web desenvolvida, uma loja de vendas de câmeras.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+              <p class="card-text">Primeira em HTML e CSS, uma loja de vendas de câmeras.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal4">Saiba Mais</button>
             </div>
           </div>
+
           <div class="card col-md-4 m-3" style="width: 18rem;">
-            <img src="imagens/Global Explorer.png" class="card-img-top" alt="Estúdio Fotógrafico">
+            <img src="img/pythonproj.png" class="card-img-top" alt="Estúdio Fotógrafico">
             <div class="card-body">
               <h5 class="card-title">Estúdio Fotógrafico</h5>
-              <p class="card-text">Projeto desenvolvido em Python, um micro banco de dados sobre profissionais.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+              <p class="card-text">Projeto feito em Python, um pequeno banco de dados sobre profissionais.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal5">Saiba Mais</button>
             </div>
           </div>
+
           <div class="card col-md-4 mx-3" style="width: 18rem;">
-            <img src="imagens/Voce decide.png" class="card-img-top" alt="Heart">
+            <img src="img/M-heartproj.png" class="card-img-top" alt="M-Heart">
             <div class="card-body">
-              <h5 class="card-title">Heart</h5>
-              <p class="card-text">Projeto mini em Python que executa uma forma de coração.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+              <h5 class="card-title">M-Heart</h5>
+              <p class="card-text">Projeto pessoal simples em Python que executa uma forma de coração.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">Saiba Mais</button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Tratamento de Dados</h5>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p> Projeto feito em JavaScript, seu objetivo foi manejar banco de dados e graficos. Sua primeira etapa se trata de uma pesquisa ficticia realizada com IA sobre as Maquiagens mais consumidas. A segunda etapa se trata de uma pesquisa de campo feita na escolei em que estudei CCM-Tancredo de Almeida Neves tendo semelhança com a pesquisa ficticia.</p>
+                  <img class="w-100" src="img/m.c.png">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary"><a href="https://luiza120.github.io/tratamento-dados-luiza3DS/">Visite o Site</a></button>
+                  <button type="button" class="btn btn-primary"><a href="https://github.com/luiza120/tratamento-dados-luiza3DS">Visite o Repositorio</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Acerte o numero</h5>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p> Projeto desenvolvido em JavaScript utilizando uma API para reconhecimento de voz. Seu objetivo é permitir a captura de voz. Desta forma, ao falar um número o site ira dizer se o valor dito é menor ou maior do que o némero secreto. Se a API identificar uma fala diferente de um valor numeral, entregara uma mensagem dizendo que o que foi dito é inválido. </p>
+                  <img class="w-100" src="img/n.s.png">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary"><a href="https://luiza120.github.io/2024-a.n-luiza3ds/">Visite o Site</a></button>
+                  <button type="button" class="btn btn-primary"><a href="https://github.com/luiza120/2024-a.n-luiza3ds">Visite o Repositorio</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Você Decide</h5>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p> Projeto feito em JavaScript, uma mini questiónario de escolhas que no final mostra texto resumido sobre seu destino em reposta as opções de sua preferencia. O Quizz é sobre Hobbies e atividades favoritas de uma pessoa. </p>
+                  <img class="w-100" src="img/v.d.png">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary"><a href="https://luiza120.github.io/2024-3DS-luiza/">Visite o Site</a></button>
+                  <button type="button" class="btn btn-primary"><a href="https://github.com/luiza120/2024-3DS-luiza">Visite o Repositorio</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Lu Câmeras</h5>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p> Projeto desenvolvido em HTML/CSS, meu primeiro projeto na web. Se trata de uma loja de vendas de câmeras para profissionais ou não, sendo bem diversa e atual. </p>
+                  <img class="w-100" src="img/l.c.png">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary"><a href="https://luiza120.github.io/site-av2/">Visite o Site</a></button>
+                  <button type="button" class="btn btn-primary"><a href="https://github.com/luiza120/site-av2">Visite o Repositorio</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="modal fade" id="Modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Estúdio Fotógrafico</h5>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p> Projeto feito em Python, uma lista de cadastro de um Estúdio Fotógrafico. Na ordem é feito o cadastro dos profissionais e logo depois a lista de clientes de cada um. É possivel ativar e desativar os fotógrafos e visualizar a agenda. </p>
+                  <img class="w-100" src="img/pythonproj.png">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary"><a href="https://github.com/luiza120/python-teo-se-2024">Visite o Repositorio</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="modal fade" id="Modal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">M-Heart</h5>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p> Projeto feito em Python, seu objetivo é entregar um formato de coração a partir do código escrito. </p>
+                  <img class="w-100" src="img/M-heartproj.png">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary"><a href="https://github.com/luiza120/m-heart.py">Visite o Repositorio</a></button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
     </main>
+    <footer class="container pt-5 mt-5 ">
+      <h2>Entre contato</h2>
+      <div>
+        <a class=" link me-3" href="https://github.com/luiza120">Github</a>
+        <a class="link" href="">LinkedIn</a>
+      </div>
+      <p class="my-2">&copy; Copyright 2024. | Produzido por Luiza V. Ribeiro </p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
